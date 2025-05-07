@@ -76,7 +76,7 @@
 
 body.dark_theme {
 
-  --bg-primary: hsl(0, 0%, 12%);
+  --bg-primary: hsl(314, 26%, 13%);
   --bg-secondary: hsl(0, 0%, 19%);
   --color-primary: hsl(0, 0%, 100%);
   --color-secondary: hsl(0, 0%, 62%);
@@ -89,7 +89,7 @@ body.dark_theme {
 
 body.light_theme {
 
-  --bg-primary: hsl(0, 0%, 90%);
+  --bg-primary: hsl(300, 26%, 81%);
   --bg-secondary: hsl(0, 0%, 100%);
   --color-primary: hsl(0, 0%, 12%);
   --color-secondary: hsl(0, 0%, 37%);
