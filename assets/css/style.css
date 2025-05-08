@@ -312,12 +312,12 @@ body.active { overflow: hidden; }
 }
 
 .logo a {
-  color: var(--color-primary);
-  font-family: var(--ff-saira-stencil-one);
+  color: var(--color-secondary);
+  font-family: var(--ff-poppins);
 }
 
 .logo span {
-  display: inline-block;
+  display: inline-table;
   color: var(--raw-seinna);
   margin-left: 2px;
 }
@@ -426,7 +426,7 @@ body.active { overflow: hidden; }
   width: max-content;
   margin-inline: auto;
   color: var(--color-primary);
-  font-family: var(--ff-poppins);
+  font-family: var(--ff-saira-stencil-one);
   font-size: var(--fs-1);
   padding: 10px;
   transform: translateY(50px);
@@ -442,7 +442,7 @@ body.active { overflow: hidden; }
   content: "";
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  transform: cubic-bezier(-50%);
   left: 0;
   height: 5px;
   width: 0;
